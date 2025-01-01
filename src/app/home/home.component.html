@@ -1,0 +1,40 @@
+<section class="bg-beige-200 min-h-[50vh] flex items-center justify-center p-8">
+  <div class="text-center">
+    <h2 class="text-2xl font-bold mb-4">Confira meus moldes</h2>
+    <p class="mb-6">Clique no botão abaixo para ver a galeria completa!</p>
+    <a routerLink="/galeria"
+      class="inline-block px-6 py-3 bg-wine-500 text-white font-semibold rounded hover:bg-beige-400 transition-colors">
+      Ir para Galeria
+    </a>
+  </div>
+</section>
+<!-- Seção BIO -->
+<section class="min-h-screen bg-beige-100 flex items-center justify-center p-8">
+  <!-- Usaremos uma largura máxima para não ficar esticado em telas enormes -->
+  <div class="max-w-5xl w-full grid grid-cols-1 md:grid-cols-2 gap-8">
+    <!-- Imagem à esquerda em telas médias pra cima -->
+    <div class="flex justify-center items-center">
+      <!-- Use um placeholder ou imagem real -->
+      <img
+        src="https://via.placeholder.com/300x400?text=Minha+Foto"
+        alt="Foto Bio"
+        class="rounded-lg shadow-lg"
+      />
+    </div>
+    <!-- Texto à direita -->
+    <div class="flex flex-col justify-center">
+      <h2 class="text-2xl font-bold mb-4">Minha Bio</h2>
+      <p class="mb-4">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus
+        urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis
+        porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac
+        euismod semper, magna diam porttitor mauris, quis sollicitudin sapien
+        justo in libero.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus
+        urna sed urna ultricies ac tempor dui sagittis.
+      </p>
+    </div>
+  </div>
+</section>
